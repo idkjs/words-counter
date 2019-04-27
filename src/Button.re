@@ -16,7 +16,7 @@ let classNameOfCategory = category =>
 [@react.component]
 let make =
     (
-      ~onClick,
+      ~onClick= _ => (), // this has type option(ReactEvent.Mouse.t => unit) which we can overide by passing an onClick value to it, otherwise it calls click by default
       ~title: string,
       ~children: ReasonReact.reactElement,
       ~disabled=false,
