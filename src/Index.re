@@ -1,2 +1,2 @@
 
-ReactDOMRe.renderToElementWithId(<App />, "index");
+ReactDOMRe.renderToElementWithId(<App />, "root");
