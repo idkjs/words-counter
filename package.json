@@ -6,9 +6,9 @@
     "start": "bsb -make-world -w",
     "clean": "bsb -clean-world",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "webpack": "webpack -w",
+    "webpack": "webpack watch",
     "webpack:production": "NODE_ENV=production webpack",
-    "server": "webpack-dev-server"
+    "server": "webpack serve"
   },
   "keywords": [
     "BuckleScript"
@@ -16,20 +16,20 @@
   "author": "",
   "license": "MIT",
   "dependencies": {
-    "@svgr/webpack": "4.2.0",
-    "react": "^16.8.1",
-    "react-copy-to-clipboard": "5.0.1",
-    "react-dom": "^16.8.1",
-    "reason-react": ">=0.7.0"
+    "@svgr/webpack": "5.5.0",
+    "react": "^17.0.2",
+    "react-copy-to-clipboard": "5.0.3",
+    "react-dom": "^17.0.2",
+    "reason-react": ">=0.9.1"
   },
   "devDependencies": {
-    "bs-platform": "^5.0.3",
-    "css-loader": "^2.1.1",
-    "html-webpack-plugin": "^3.2.0",
-    "style-loader": "^0.23.1",
-    "to-string-loader": "^1.1.5",
-    "webpack": "^4.30.0",
-    "webpack-cli": "^3.3.1",
-    "webpack-dev-server": "^3.3.1"
+    "bs-platform": "^9.0.2",
+    "css-loader": "^6.2.0",
+    "html-webpack-plugin": "^5.3.2",
+    "style-loader": "^3.2.1",
+    "to-string-loader": "^1.1.6",
+    "webpack": "^5.47.1",
+    "webpack-cli": "^4.7.2",
+    "webpack-dev-server": "^3.11.2"
   }
 }
